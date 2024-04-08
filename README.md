@@ -44,4 +44,4 @@ So, *what is the run.c function for DNA?*
 
 I think we will learn the answer soon. 
 
-[![](https://dcbadge.vercel.app/api/server/3zy8kqD9Cp?compact=true&style=flat)](https://discord.gg/X7strFxxkz)
+[![](https://dcbadge.vercel.app/api/server/X7strFxxkz?compact=true&style=flat)](https://discord.gg/X7strFxxkz)
