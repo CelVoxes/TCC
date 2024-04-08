@@ -44,5 +44,5 @@ So, *what is the run.c function for DNA?*
 
 I think we will learn the answer soon. 
 
-### Join US!
+### Questions? Ideas? Wanna Chat? Join us.
 [![](https://dcbadge.vercel.app/api/server/X7strFxxkz)](https://discord.gg/X7strFxxkz)
