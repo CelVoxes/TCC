@@ -1,4 +1,5 @@
-> Join Discord[![](https://dcbadge.vercel.app/api/server/X7strFxxkz?compact=true&style=flat)](https://discord.gg/X7strFxxkz)
+> Join Discord
+[![](https://dcbadge.vercel.app/api/server/X7strFxxkz?compact=true&style=flat)](https://discord.gg/X7strFxxkz)
 
 # Talk Can Cells?
 
