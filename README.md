@@ -4,9 +4,15 @@ Do cells have a language? With the recent success of large language models and t
 
 > [Blog Post](https://celvox.co/blog/TCC/index.html). 
 
+
+## Downloading the dataset
+
+I have included an R script to download pathways using *hypeR* package in data folder. 
+Outdated pathways were discarded.
+
 ## Preparing the dataset
 
-I have curated genesets from public resources in *.gmt* format. This is more or less what it looks like: 
+The pathways are in *.gmt* format. This is more or less what it looks like: 
 
 | Pathway Name | Description          | Gene Symbol |
 |--------------|----------------------|-------------|
@@ -19,7 +25,7 @@ Then, I felt like a basic filtering strategy was necessary, so in order:
 2) Removed the genes that occurred less than 5 times in the whole dataset
 3) Selected pathways with >90% mapping to human genes
 4) 95% for training, 5% for test (10,000 sets) ~44,000 tokens
-5) Random 1000 sets then was selected for the inference.
+5) Random 1000 sets then was selected from test set for inference.
 
 All of these are [here](prepare_data.ipynb).
 
@@ -44,5 +50,7 @@ So, *what is the run.c function for DNA?*
 
 I think we will learn the answer soon. 
 
-### Questions? Ideas? Wanna Chat? *Join us*.
+### Questions? Ideas? Wanna Chat? 
+*Join us*.
+
 [![](https://dcbadge.vercel.app/api/server/X7strFxxkz)](https://discord.gg/X7strFxxkz)
