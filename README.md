@@ -7,8 +7,8 @@ Do cells have a language? With the recent success of large language models and t
 
 ## Downloading the dataset
 
-I have included an R script to download pathways using *hypeR* package in data folder. 
-Outdated pathways were discarded.
+I have included an [R script](data/download_data.R) to download pathways using *hypeR* package in data folder. 
+Outdated pathways were discarded. Simple quality control was performed to look cooler.
 
 ## Preparing the dataset
 
@@ -27,7 +27,7 @@ Then, I felt like a basic filtering strategy was necessary, so in order:
 4) 95% for training, 5% for test (10,000 sets) ~44,000 tokens
 5) Random 1000 sets then was selected from test set for inference.
 
-All of these are [here](prepare_data.ipynb).
+All of these are [here](data/prepare_data.ipynb).
 
 ## Training
 
